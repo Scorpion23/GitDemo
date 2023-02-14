@@ -66,4 +66,6 @@ public class AbstractComponents{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(ele));
 	}
+	
+	System.out.println("GitDemo");
 }
